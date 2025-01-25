@@ -23,7 +23,7 @@
         "stack": "Next JS",
         "description": "A user-friendly tool for developers and writers to preview Markdown content in real-time. It converts Markdown syntax into formatted HTML, enabling seamless content creation and visualization.",
         "source": "https://github.com/AjeetSingh2016/markdown-preview",
-        "link": "https://vercel.com/ajeetsingh2016s-projects/markdown-preview/Au1Ls1P9Z6FT2HHXQ4X6Pef2Qwhk",
+        "link": "https://markdown-preview-phi-azure.vercel.app/",
         "technologies": [
           "React.js",
           "JavaScript",
@@ -38,7 +38,7 @@
         "stack": "Next JS",
         "description": "A web app designed for students and educators to access and read NCERT books seamlessly. It provides a clean and intuitive interface for browsing and reading educational material.",
         "source": "https://github.com/AjeetSingh2016/ncert-reader",
-        "link": "https://vercel.com/ajeetsingh2016s-projects/ncert-reader/HQ1wso6zSqn1A2p9QgaQgRvxsr8p",
+        "link": "https://ncert-reader.vercel.app/",
         "technologies": [
           "React.js",
           "JavaScript",
