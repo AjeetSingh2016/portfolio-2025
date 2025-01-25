@@ -80,9 +80,12 @@ export default function AboutMe() {
                 className="bg-gray-800 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out transform hover:-translate-y-2 flex flex-col md:flex-row items-start"
               >
                 <div className="flex-grow">
-                  <h4 className="text-2xl font-semibold">{exp.title}</h4>
+                  <h4 className="text-2xl font-semibold ">{exp.title}</h4>
+                  <p className="text-sm text-green-300 mt-2">
+                    {exp.company} - {exp.type}
+                  </p>
                   <p className="text-sm text-gray-400 mt-2">
-                    {exp.company} | {exp.type} | {exp.duration}
+                    {exp.duration}
                   </p>
                   <p className="mt-4 text-gray-300 leading-relaxed">
                     {exp.description}
