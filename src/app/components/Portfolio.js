@@ -20,12 +20,12 @@ export default function Portfolio() {
             <span className="absolute left-1/2 transform -translate-x-1/2 bottom-0 w-1/2 h-1 bg-green-500"></span>
           </span>
         </h2>
-        <div className="flex justify-center space-x-6 mb-12">
+        <div className="flex flex-wrap justify-center gap-4 mb-12">
           {["All", "React Js", "React Native", "Next JS"].map((tech) => (
             <button
               key={tech}
               onClick={() => setFilter(tech)}
-              className={`px-6 py-3 text-lg font-semibold rounded-full transition-all duration-300 ease-in-out transform hover:scale-105 ${
+              className={`px-4 py-2 text-sm sm:px-6 sm:py-3 sm:text-lg font-semibold rounded-full transition-all duration-300 ease-in-out transform hover:scale-105 ${
                 filter === tech
                   ? "bg-gradient-to-r from-green-400 to-blue-500 text-white shadow-lg"
                   : "bg-gray-700 text-gray-300 hover:bg-gray-600"
@@ -46,21 +46,21 @@ export default function Portfolio() {
                   <img
                     src={project.image || "/default-image.jpg"}
                     alt={project.title}
-                    className="w-full h-64 object-cover object-center rounded-t-xl"
+                    className="w-full h-48 sm:h-64 object-cover object-center rounded-t-xl"
                   />
                 </a>
                 <div className="p-6 flex flex-col justify-between flex-1">
                   <div>
-                    <h3 className="text-2xl font-semibold text-green-400">
+                    <h3 className="text-xl sm:text-2xl font-semibold text-green-400">
                       {project.title}
                     </h3>
-                    <h4 className="text-sm text-gray-400 mt-1">
+                    <h4 className="text-xs sm:text-sm text-gray-400 mt-1">
                       {project.subtitle}
                     </h4>
                     <time className="font-sans text-xs text-gray-500 mt-2">
                       {project.stack}
                     </time>
-                    <p className="text-gray-400 text-sm mt-4">
+                    <p className="text-gray-400 text-xs sm:text-sm mt-4">
                       {project.description}
                     </p>
                   </div>
@@ -69,7 +69,7 @@ export default function Portfolio() {
                     {project.technologies.map((tech, techIdx) => (
                       <span
                         key={techIdx}
-                        className="px-3 py-1 text-xs text-white bg-green-500 rounded-full"
+                        className="px-2 py-1 text-xs text-white bg-green-500 rounded-full"
                       >
                         {tech}
                       </span>
@@ -78,17 +78,17 @@ export default function Portfolio() {
                 </div>
               </div>
               {/* Footer with Buttons */}
-              <div className="py-5 px-6 flex justify-between w-full rounded-b-xl mt-auto bg-gray-700">
+              <div className="py-4 px-6 flex flex-col sm:flex-row justify-between gap-4 w-full rounded-b-xl mt-auto bg-gray-700">
                 <a
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-white text-sm font-semibold flex flex-row justify-between items-center rounded-md bg-gray-800 px-4 py-2 gap-x-2 hover:bg-gray-900 transition-all duration-300"
+                  className="text-white text-sm font-semibold flex flex-row justify-center items-center rounded-md bg-gray-800 px-4 py-2 gap-x-2 hover:bg-gray-900 transition-all duration-300"
                 >
                   <img
                     src="https://img.icons8.com/sf-regular/48/FFFFFF/external-link.png"
                     alt="External Link Icon"
-                    className="w-5 h-5"
+                    className="w-4 h-4 sm:w-5 sm:h-5"
                   />
                   <span>View Project</span>
                 </a>
@@ -96,12 +96,12 @@ export default function Portfolio() {
                   href={project.source}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-white text-sm font-semibold flex flex-row justify-between items-center rounded-md bg-gray-800 px-4 py-2 gap-x-2 hover:bg-gray-900 transition-all duration-300"
+                  className="text-white text-sm font-semibold flex flex-row justify-center items-center rounded-md bg-gray-800 px-4 py-2 gap-x-2 hover:bg-gray-900 transition-all duration-300"
                 >
                   <img
                     src="https://img.icons8.com/ios/50/FFFFFF/globe--v1.png"
                     alt="External Link Icon"
-                    className="w-5 h-5"
+                    className="w-4 h-4 sm:w-5 sm:h-5"
                   />
                   <span>View Source</span>
                 </a>
