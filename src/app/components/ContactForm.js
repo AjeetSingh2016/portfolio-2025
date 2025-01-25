@@ -2,7 +2,7 @@ import Link from "next/link";
 export default function ContactForm() {
     return (
       <section id="contact-me" className="py-12 px-4 bg-gray-900 text-white">
-        <div className="mx-[10%] space-y-8 mt-0.5">
+        <div className="mx-[10%] space-y-8 mt-0.5 text-center">
           <div className="space-y-3">
           <h2 className="text-2xl mt-6 font-bold uppercase tracking-wider mb-6 text-center relative">
             <span className="relative inline-block">

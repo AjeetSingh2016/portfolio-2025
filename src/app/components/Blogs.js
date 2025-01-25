@@ -43,11 +43,13 @@ export default function Blog() {
                      By Ajeet Singh
                   </span>
                   <a
-                    href="#"
-                    className="text-blue-400 hover:underline text-sm"
-                  >
-                    Read more
-                  </a>
+  href={blog.link}
+  className="text-blue-400 hover:underline text-sm"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Read more
+</a>
                 </div>
               </div>
             </div>
