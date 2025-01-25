@@ -1,0 +1,153 @@
+{
+    "projects": [
+      {
+        "title": "Open Source Repo Finder",
+        "subtitle": "Discover and Explore Open Source Repositories with Ease",
+        "stack": "Next JS",
+        "description": "An app built to help developers find random GitHub repositories based on a selected programming language. It displays repository details like name, description, stars, forks, and open issues, with a feature to fetch another repository seamlessly.",
+        "source": "https://github.com/AjeetSingh2016/github-repo-finder",
+        "link": "https://github-repo-finder-two.vercel.app/",
+        "technologies": [
+          "Next.js",
+          "JavaScript",
+          "Tailwind CSS",
+          "GitHub API",
+          "React"
+        ],
+        "image": "https://www.suse.com/c/wp-content/uploads/2018/10/Open-Source-Software-.jpg",
+        "video": ""
+      },      
+      {
+        "title": "Markdown Previewer",
+        "subtitle": "Real-Time Markdown to HTML Preview Tool",
+        "stack": "Next JS",
+        "description": "A user-friendly tool for developers and writers to preview Markdown content in real-time. It converts Markdown syntax into formatted HTML, enabling seamless content creation and visualization.",
+        "source": "https://github.com/AjeetSingh2016/markdown-preview",
+        "link": "https://vercel.com/ajeetsingh2016s-projects/markdown-preview/Au1Ls1P9Z6FT2HHXQ4X6Pef2Qwhk",
+        "technologies": [
+          "React.js",
+          "JavaScript",
+          "CSS"
+        ],
+        "image": "https://miro.medium.com/v2/resize:fit:1400/1*eZ7YPTqzcyFVoQxIOIQ9kQ.png",
+        "video": ""
+      },      
+      {
+        "title": "NCERT E-Book Reader",
+        "subtitle": "Read and Explore NCERT Books Online",
+        "stack": "Next JS",
+        "description": "A web app designed for students and educators to access and read NCERT books seamlessly. It provides a clean and intuitive interface for browsing and reading educational material.",
+        "source": "https://github.com/AjeetSingh2016/ncert-reader",
+        "link": "https://vercel.com/ajeetsingh2016s-projects/ncert-reader/HQ1wso6zSqn1A2p9QgaQgRvxsr8p",
+        "technologies": [
+          "React.js",
+          "JavaScript",
+          "CSS"
+        ],
+        "image": "https://www.jirs.ac.in/uploads/blog/ncert-full-form.jpg",
+        "video": ""
+      },      
+      { 
+        "title": "Flawwless", 
+        "subtitle": "Legal Educational Platform",
+        "stack": "React Native", 
+        "description": "Founded the app which helps users to get a better understanding of the law and consume unbiased information. Some of the features of the app are reading articles, an Inbuilt dictionary, Rich resources, and Easy to use.", 
+        "source": "https://github.com/AjeetSingh2016/flawwless-App",
+        "link": "https://flawwless-showcase-second.vercel.app/home",
+        "technologies": [
+          "React Js",
+          "JavaScript",
+          "React Native",
+          "Firebase",
+          "Express",
+          "MongoDb",
+          "Rest API"
+        ],
+        "image": "https://ncert-epub.s3.us-east-1.amazonaws.com/test/flawwless.jpeg",
+        "video": "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4"
+      },
+      { 
+        "title": "Automatic Expense Manager", 
+        "subtitle": "Manage And Track Finances",
+        "stack": "React Native", 
+        "description": "This is a React Native mobile application that enables users to manage and track their finances automatically through transaction sms.", 
+        "source": "https://github.com/AjeetSingh2016/flawwless-App",
+        "link": "https://flawwless-showcase.vercel.app/home",
+        "technologies": [
+          "React Js",
+          "JavaScript",
+          "React Native",
+          "Firebase",
+          "Express",
+          "MongoDb"
+        ],
+        "image": "https://ncert-epub.s3.us-east-1.amazonaws.com/test/expense.jpg",
+        "video": "https://cdn.magicui.design/bento-grid.mp4"
+      },
+      { 
+        "title": "Device Info", 
+        "subtitle": "Android System Insight",
+        "stack": "React Native", 
+        "description": "Developed an app that provides in-depth insights into a user's device hardware, software, and connectivity. Offers a comprehensive overview of the device's specifications", 
+        "link": "https://play.google.com/store/apps/details?id=com.systeminformation2024",
+        "technologies": [
+          "React Js",
+          "JavaScript",
+          "React Native",
+          "Material UI"
+        ],
+        "image": "https://ncert-epub.s3.us-east-1.amazonaws.com/test/system.jpg",
+        "video": "https://cdn.llm.report/openai-demo.mp4"
+      },
+      { 
+        "title": "QR Code", 
+        "subtitle": "Scanner & Generator",
+        "stack": "React Native", 
+        "description": "This is an app for easy QR code management, allowing users to scan existing codes and create custom QR codes.", 
+        "link": "https://play.google.com/store/apps/details?id=com.qrcodeproject2024",
+        "technologies": [
+          "React Js",
+          "JavaScript",
+          "React Native",
+          "Material UI",
+          "NPM"
+        ],
+        "image": "https://ncert-epub.s3.us-east-1.amazonaws.com/test/qrcode.jpg",
+        "video": "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4"
+      },
+      { 
+        "title": "Meta Data", 
+        "subtitle": "Link Previewer",
+        "stack": "React Js", 
+        "description": "Created a Link Previewer web application that can provide your Link's Metadata such as type, images, title, and description.", 
+        "source": "https://github.com/AjeetSingh2016",
+        "link": "https://link-preview-seven.vercel.app/",
+        "technologies": [
+          "React Js",
+          "JavaScript",
+          "React Native",
+          "Material UI",
+          "NPM"
+        ],
+        "image": "https://ncert-epub.s3.us-east-1.amazonaws.com/test/meta.jpg",
+        "video": "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4"
+      },
+      { 
+        "title": "Earth Observatory", 
+        "subtitle": "Natural Event Tracker",
+        "stack": "React Js", 
+        "description": "Developed a web application using Google Map API that can help users keep track of various natural events such as wildfires from all over the world.", 
+        "source": "https://github.com/AjeetSingh2016",
+        "link": "https://disaster-woad.vercel.app/home",
+        "technologies": [
+          "React Js",
+          "JavaScript",
+          "Tailwind CSS",
+          "NASA API"
+        ],
+        "image": "https://ncert-epub.s3.us-east-1.amazonaws.com/test/earth.jpg",
+        "video": "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4"
+      }
+    ]
+  }
+  

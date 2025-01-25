@@ -1,0 +1,33 @@
+{
+    "blogs": [
+      {
+        "date": "Jan 25 2025",
+        "title": "How Tailwind CSS Enhances Web and Mobile Development in React Ecosystems",
+        "category": "React's flexibility and component-based architecture make it a dominant framework in web and mobile development. Tailwind CSS, a utility-first framework, complements React by streamlining development and enhancing user experiences. Here's how it boosts development within the React ecosystem.",
+        "comments": 1,
+        "image": "https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/W5qgKZj-qnk/upload/5fa885775b3b29347752b2a27b9a6f54.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
+      },
+      {
+        "date": "Jan 25 2025",
+        "title": "From Web to Mobile: Converting a React.js App into a React Native App",
+        "category": "As mobile app demand grows, developers often seek to extend their web apps to mobile platforms. If you're familiar with React.js, React Native is a natural choice for building mobile apps. This guide explores the process of converting a React.js app into a React Native app, with tips for a seamless transition.",
+        "comments": 1,
+        "image": "https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/gy08FXeM2L4/upload/9892419c5b874120dff90cddfecd40fc.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
+      },
+      {
+        "date": "Sep 14 2022",
+        "title": "Asynchronous JavaScript - Callbacks, Promises, and Async/Await",
+        "category": "JavaScript, being synchronous and single-threaded, executes instructions one at a time. If an operation takes too long, it can block subsequent tasks, disrupting code execution. On websites, this can lead to interruptions in user interactions.",
+        "comments": 3,
+        "image": "https://cdn.hashnode.com/res/hashnode/image/upload/v1663143363741/sqUPQKqyW.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
+      },
+      {
+        "date": "Jan 25 2025",
+        "title": "SEO Best Practices for Next.js Websites",
+        "category": "Search Engine Optimization (SEO) is vital for boosting your website's visibility on search engines. Next.js provides a strong SEO foundation with features like server-side rendering (SSR) and static site generation (SSG). Here are beginner-friendly tips to help your Next.js website rank higher.",
+        "comments": 2,
+        "image": "https://cdn.shopify.com/s/files/1/0840/8370/3830/articles/1603954182-seo-article-header.png?v=1714646999"
+      }
+    ]
+  }
+  

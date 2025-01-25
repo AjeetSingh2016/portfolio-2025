@@ -1,0 +1,71 @@
+{
+  "summary": "React JS & React Native Developer with a passion for creating efficient and scalable solutions. Experienced in building web and mobile applications using modern frameworks and technologies.",
+  "education": [
+    {
+      "year": "2020-2024",
+      "degree": "B.Tech in Computer Science Engineering",
+      "institute": "BBD University | Lucknow"
+    },
+    {
+      "year": "2019-2020",
+      "degree": "Intermediate",
+      "institute": "City Convent Inter College | Lucknow"
+    },
+    {
+      "year": "2017-2018",
+      "degree": "High School",
+      "institute": "City Convent Inter College | Lucknow"
+    }
+  ],
+  "skills": [
+    { "name": "React JS", "level": 80 },
+    { "name": "Next JS", "level": 70 },
+    { "name": "React Native", "level": 80 },
+    { "name": "MERN Stack", "level": 65 },
+    { "name": "Tailwind CSS", "level": 80 }
+  ],
+  "experience": [
+    {
+      "title": "Front-end Developer",
+      "company": "Unified Mentor Private Ltd",
+      "type": "Remote",
+      "duration": "Jan 2025 - Present",
+      "description": "At Unified Mentor, I develop responsive web interfaces using React.js, collaborate on UI/UX implementation, optimize for performance, and debug front-end issues, gaining valuable hands-on experience and enhancing my technical skills.",
+      "employmentType": "Internship"
+    },
+    {
+      "title": "React Native Developer",
+      "company": "IELTS Proficiency ",
+      "type": "Remote",
+      "duration": "Feb 2023 - May 2023",
+      "description": "The internship focused on developing a parental control app, where I designed UIs, implemented features, debugged issues, and collaborated with the team to enhance the user experience.",
+      "employmentType": "Internship"
+    },
+    {
+      "title": "Co-Founder & Teach Lead",
+      "company": "Flawwless",
+      "type": "Lucknow",
+      "duration": "Oct 2022 - Mar 2023 ",
+      "description": "Legal Destination For Law Professionals & Students.Flawwless is a Flawless app for users to ease their legal woes. This app contains non baised info.",
+      "employmentType": "Full Time"
+    }
+  ],
+  "whatIDo": [
+    {
+      "title": "Web Design",
+      "description": "I create visually appealing designs for websites to enhance the user experience."
+    },
+    {
+      "title": "Web Development",
+      "description": "I develop fully functional websites using modern web technologies like HTML, CSS, and JavaScript."
+    },
+    {
+      "title": "SEO Marketing",
+      "description": "I help websites optimize their content to rank higher in search engines and increase visibility."
+    },
+    {
+      "title": "SEO Marketing 2",
+      "description": "I help websites optimize their content to rank higher in search engines and increase visibility."
+    }
+  ]
+}
