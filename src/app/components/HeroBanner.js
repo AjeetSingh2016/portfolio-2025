@@ -55,11 +55,11 @@ export default function HeroBanner() {
           <span className="text-green-500 font-semibold">Mern Stack</span>
         </div>
         <a
-          href="https://ncert-epub.s3.us-east-1.amazonaws.com/test/Ajeet+Resume.pdf"
+          href="https://ncert-epub.s3.us-east-1.amazonaws.com/test/Ajeet's+FS+Resume.pdf"
           download
           className="px-8 py-3 bg-gradient-to-r from-green-400 to-blue-500 text-white rounded-xl shadow-lg transform hover:scale-105 transition duration-300"
         >
-          Download CV
+          Download Resume
         </a>
     </section>
     
