@@ -147,7 +147,25 @@
         ],
         "image": "https://ncert-epub.s3.us-east-1.amazonaws.com/test/earth.jpg",
         "video": "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4"
+      },
+      {
+        "title": "Taskify",
+        "subtitle": "Manage tasks easily",
+        "stack": "React Native",
+        "description": "Developed task management app using React Native that allows users to create, organize, and track tasks efficiently. The app provides features like categorization, due dates to enhance productivity.",
+        "source": "https://play.google.com/store/apps/details?id=com.ajeet2016.taskManagment",
+        "link": "https://play.google.com/store/apps/details?id=com.ajeet2016.taskManagment",
+        "technologies": [
+          "React Native",
+          "JavaScript",
+          "Firebase",
+          "Redux",
+          "Tailwind CSS"
+        ],
+        "image": "https://ncert-epub.s3.us-east-1.amazonaws.com/test/taskify.png",
+        "video": ""
       }
+      
     ]
   }
   
