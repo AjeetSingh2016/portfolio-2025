@@ -21,7 +21,7 @@ export default function Portfolio() {
           </span>
         </h2>
         <div className="flex flex-wrap justify-center gap-4 mb-12">
-          {["All", "React Js", "React Native", "Next JS"].map((tech) => (
+          {["All", "Next JS", "React Native", "React Js"].map((tech) => (
             <button
               key={tech}
               onClick={() => setFilter(tech)}

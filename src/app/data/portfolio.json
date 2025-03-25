@@ -1,6 +1,23 @@
 {
     "projects": [
       {
+        "title": "ColorCraft.Dev",
+        "subtitle": "The Ultimate Color Toolkit",
+        "stack": "Next JS",
+        "description": "Color Craft is a smart color toolkit designed for designers, developers, and artists. It helps you extract, generate, and manage color palettes effortlessly. Whether you're designing a website, UI, branding, or just looking for inspiration, Color Craft provides an intuitive experience..",
+        "source": "https://www.colorcraft.dev/",
+        "link": "https://colorcraft.dev",
+        "technologies": [
+          "Next.js",
+          "NPM",
+          "Tailwind CSS",
+          "Rest API",
+          "JavaScript"
+        ],
+        "image": "https://www.colorcraft.dev/og-image.jpg",
+        "video": ""
+      },
+      {
         "title": "Open Source Repo Finder",
         "subtitle": "Discover and Explore Open Source Repositories with Ease",
         "stack": "Next JS",
@@ -182,8 +199,7 @@
         "image": "https://play-lh.googleusercontent.com/Z75ShynWoKEBSBfSpSjUodBUFEl8V5Z7UDIBDoQI00YStDut900tI7D92lTODT9WW230=w240-h480-rw",
         "video": ""
       }
-      
-      
+    
     ]
   }
   
