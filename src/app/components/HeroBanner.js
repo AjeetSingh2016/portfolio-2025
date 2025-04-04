@@ -22,8 +22,8 @@ export default function HeroBanner() {
           <ReactTyped
             strings={[
               "I am React Native Developer",
-              "I am React JS Developer",
-              "I am Full Stack Developer",
+              "I am Next JS Developer",
+              "I am Front End Developer",
               "I am UI/UX Enthusiast"
             ]}
             typeSpeed={80}
@@ -50,16 +50,16 @@ export default function HeroBanner() {
            {/* Skills or Additional Content */}
          <div className="space-x-6 mb-10 mt-10">
           <span className="text-green-500 font-semibold">React Native</span>
-          <span className="text-green-500 font-semibold">React JS</span>
+          <span className="text-green-500 font-semibold">Next JS</span>
           <span className="text-green-500 font-semibold">Front End</span>
           <span className="text-green-500 font-semibold">Mern Stack</span>
         </div>
         <a
-          href="https://ncert-epub.s3.us-east-1.amazonaws.com/test/Ajeet's+FS+Resume.pdf"
+          href="https://drive.google.com/file/d/1Y2xRXyhcW25mARmmISXSAYwM8qhiFNem/view?usp=sharing"
           download
           className="px-8 py-3 bg-gradient-to-r from-green-400 to-blue-500 text-white rounded-xl shadow-lg transform hover:scale-105 transition duration-300"
         >
-          Download Resume
+          View Resume
         </a>
     </section>
     
