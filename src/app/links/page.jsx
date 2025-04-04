@@ -47,7 +47,7 @@ export default function Home() {
   ];
   const links = [
     { title: 'Twitter', url: 'https://x.com/AjeetSingh76422', icon: <FaTwitter />, description: 'Thoughts on development and tech' },
-    { title: 'Portfolio', url: 'https://ajeetsingh.online/', icon: <FaTerminal />, description: 'Articles about coding' },
+    { title: 'Portfolio', url: 'https://ajeetsingh.online/', icon: <FaTerminal />, description: 'Explore my journey and work' },
     { title: 'GitHub', url: 'https://github.com/AjeetSingh2016', icon: <FaGithub />, description: 'Open source contributions' },
     { title: 'LinkedIn', url: 'https://www.linkedin.com/in/ajeet-singh-063978177/', icon: <FaLinkedin />, description: 'Professional profile' }
   ];
