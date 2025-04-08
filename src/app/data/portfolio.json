@@ -3,7 +3,7 @@
       {
         "title": "QuickSync",
         "subtitle": "Sync & Access Across Devices",
-        "stack": "Next.js & React Native",
+        "stack": "Next JS",
         "description": "QuickSync is a cross-device platform for managing and syncing links, tasks, and bookmarks effortlessly. Save, organize, and access important content anytime, anywhere — whether on desktop, mobile, or tablet. Designed for productivity enthusiasts who want  instant link sync.",
         "source": "https://quicksync.online",
         "link": "https://quicksync.online",
@@ -22,7 +22,7 @@
       {
         "title": "Templify.art",
         "subtitle": "React Native & Next.js templates",
-        "stack": "Next.js",
+        "stack": "Next JS",
         "description": "Templify is a platform to discover, download, and share high-quality templates for a variety of tech stacks, including React Native, Next.js, and more. Designed for developers and designers to accelerate project development with beautifully crafted UI kits and boilerplates.",
         "source": "https://github.com/ajeet2016/templify",
         "link": "https://templify.art",
