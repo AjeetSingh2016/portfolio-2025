@@ -43,6 +43,19 @@ export default function Home() {
         />
       ),
       tags: ['React Native', 'Next.js', 'Templates']
+    },
+    {
+      title: 'QuickSync',
+      url: 'https://www.quicksync.online',
+      description: 'A smarter way to save and sync your important links & tasks across all devices.',
+      icon: (
+        <img 
+          src="https://www.quicksync.online/favicon.ico" 
+          alt="Templify Icon" 
+          className="w-12 h-12 object-contain"
+        />
+      ),
+      tags: ['React Native', 'Next.js', 'Productivity']
     }
   ];
   const links = [
@@ -100,7 +113,7 @@ export default function Home() {
       <main className="max-w-4xl mx-auto pt-24 pb-12 px-6">
         {/* Profile Section */}
         <motion.section 
-          className="mb-20"
+          className="mb-14"
           variants={containerVariants}
           initial="hidden"
           animate="visible"
@@ -138,7 +151,7 @@ export default function Home() {
                 {bio}
               </motion.p>
 
-              <motion.div 
+              {/* <motion.div 
                 className="flex flex-wrap justify-center md:justify-start gap-3"
                 variants={itemVariants}
               >
@@ -151,7 +164,7 @@ export default function Home() {
                     <span className="text-gray-200">{tech.name}</span>
                   </div>
                 ))}
-              </motion.div>
+              </motion.div> */}
             </div>
           </div>
         </motion.section>
@@ -173,40 +186,41 @@ export default function Home() {
           </motion.h3>
 
           <div className="grid md:grid-cols-2 gap-6">
-            {featuredProjects.map((project, index) => (
-              <motion.a
-                key={index}
-                href={project.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group relative bg-gray-800/50 backdrop-blur-sm rounded-xl overflow-hidden border border-gray-700/50 hover:border-purple-500/50 transition-all duration-300"
-                variants={itemVariants}
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-              >
-                <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-cyan-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <div className="relative p-6">
-                  <div className="w-12 h-12 rounded-lg bg-gray-900/50 flex items-center justify-center mb-4 group-hover:bg-gray-850/50 transition-colors duration-300">
-                    {project.icon}
-                  </div>
-                  <h4 className="text-xl font-bold mb-2 text-white group-hover:text-purple-300 transition-colors duration-300">
-                    {project.title}
-                  </h4>
-                  <p className="text-gray-400 mb-4 text-sm">{project.description}</p>
-                  <div className="flex flex-wrap gap-2">
-                    {project.tags.map((tag, tagIndex) => (
-                      <span 
-                        key={tagIndex} 
-                        className="text-xs px-2 py-1 bg-gray-700/50 rounded-md text-gray-300 group-hover:bg-purple-900/30 transition-colors duration-300"
-                      >
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              </motion.a>
-            ))}
-          </div>
+  {featuredProjects.slice(0, 3).map((project, index) => (
+    <motion.a
+      key={index}
+      href={project.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="group relative bg-gray-800/50 backdrop-blur-sm rounded-xl overflow-hidden border border-gray-700/50 hover:border-purple-500/50 transition-all duration-300"
+      variants={itemVariants}
+      whileHover={{ scale: 1.02 }}
+      whileTap={{ scale: 0.98 }}
+    >
+      <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-cyan-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+      <div className="relative p-6">
+        <div className="w-12 h-12 rounded-lg bg-gray-900/50 flex items-center justify-center mb-4 group-hover:bg-gray-850/50 transition-colors duration-300">
+          {project.icon}
+        </div>
+        <h4 className="text-xl font-bold mb-2 text-white group-hover:text-purple-300 transition-colors duration-300">
+          {project.title}
+        </h4>
+        <p className="text-gray-400 mb-4 text-sm">{project.description}</p>
+        <div className="flex flex-wrap gap-2">
+          {project.tags.map((tag, tagIndex) => (
+            <span 
+              key={tagIndex} 
+              className="text-xs px-2 py-1 bg-gray-700/50 rounded-md text-gray-300 group-hover:bg-purple-900/30 transition-colors duration-300"
+            >
+              {tag}
+            </span>
+          ))}
+        </div>
+      </div>
+    </motion.a>
+  ))}
+</div>
+
         </motion.section>
 
         {/* Links Section */}
