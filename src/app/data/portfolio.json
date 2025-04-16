@@ -74,6 +74,24 @@
         "video": ""
       },
       {
+        "title": "UtilityHub",
+        "subtitle": "Everyday Utility Apps for Everyone",
+        "stack": "NExt jS",
+        "description": "UtilityHub is a curated collection of simple, useful mobile apps designed to solve everyday problems. From calculators and converters to timers and planners, each app is lightweight, easy to use, and built with performance in mind. A showcase of practical tools made with React Native — all in one place.",
+        "source": "https://www.transfinedigital.com/",
+        "link": "https://www.transfinedigital.com/",
+        "technologies": [
+          "React",
+          "React Native",
+          "Tailwind CSS",
+          "Expo",
+          "Play Store Integration",
+          "Single Page Application"
+        ],
+        "image": "https://www.transfinedigital.com/og-image.png",
+        "video": ""
+      },      
+      {
         "title": "Open Source Repo Finder",
         "subtitle": "Discover and Explore Open Source Repositories with Ease",
         "stack": "Next JS",
