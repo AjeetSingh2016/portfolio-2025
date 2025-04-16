@@ -1,6 +1,24 @@
 {
     "projects": [
       {
+        "title": "Freelance Flow",
+        "subtitle": "Tools for Effortless Freelancing",
+        "stack": "Next JS",
+        "description": "FreelanceFlow is an all-in-one toolset designed for freelancers. Generate proposals, sign contracts, create invoices, and more — all with one click, no logins, and no hassle. Built for independent professionals looking to streamline their workflow and stay productive on their terms.",
+        "source": "https://freelance-flow-nine.vercel.app/",
+        "link": "https://freelance-flow-nine.vercel.app/",
+        "technologies": [
+          "React",
+          "Firebase",
+          "Tailwind CSS",
+          "PDF Export",
+          "Local Storage",
+          "No Login Required"
+        ],
+        "image": "https://freelance-flow-nine.vercel.app/og-image.png",
+        "video": ""
+      },      
+      {
         "title": "QuickSync",
         "subtitle": "Sync & Access Across Devices",
         "stack": "Next JS",
