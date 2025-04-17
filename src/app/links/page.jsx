@@ -56,6 +56,19 @@ export default function Home() {
         />
       ),
       tags: ['React Native', 'Next.js', 'Productivity']
+    },
+    {
+      title: 'Transfine Digital',
+      url: 'https://www.transfinedigital.com/',
+      description: 'A smarter way to save and sync your important links & tasks across all devices.',
+      icon: (
+        <img 
+          src="https://www.transfinedigital.com/favicon.ico" 
+          alt="Transfine Digital Icon" 
+          className="w-12 h-12 object-contain"
+        />
+      ),
+      tags: ['React Native', 'Next.js', 'Productivity', 'Tools', 'Utility']
     }
   ];
   const links = [
@@ -113,61 +126,46 @@ export default function Home() {
       <main className="max-w-4xl mx-auto pt-24 pb-12 px-6">
         {/* Profile Section */}
         <motion.section 
-          className="mb-14"
-          variants={containerVariants}
-          initial="hidden"
-          animate="visible"
-        >
-          <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
-            <motion.div 
-              className="relative"
-              variants={itemVariants}
-            >
-              <div className="absolute -inset-2 bg-gradient-to-r from-cyan-500/30 to-purple-600/30 rounded-full blur-xl animate-pulse"></div>
-              <img 
-                src={avatarUrl} 
-                alt={name} 
-                className="relative w-36 h-36 rounded-full border-4 border-gray-800/50 object-cover shadow-xl hover:scale-105 transition-transform duration-300"
-              />
-            </motion.div>
+  className="mb-10 md:mb-14"
+  variants={containerVariants}
+  initial="hidden"
+  animate="visible"
+>
+  <div className="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-8">
+    <motion.div 
+      className="relative"
+      variants={itemVariants}
+    >
+      <div className="absolute -inset-1.5 md:-inset-2 bg-gradient-to-r from-cyan-500/30 to-purple-600/30 rounded-full blur-lg md:blur-xl animate-pulse"></div>
+      <img 
+        src={avatarUrl} 
+        alt={name} 
+        className="relative w-28 h-28 md:w-36 md:h-36 rounded-full border-3 md:border-4 border-gray-800/50 object-cover shadow-lg md:shadow-xl hover:scale-105 transition-transform duration-300"
+      />
+    </motion.div>
 
-            <div className="text-center md:text-left">
-              <motion.h1 
-                className="text-5xl font-extrabold mb-3 bg-gradient-to-r from-cyan-400 to-purple-400 text-transparent bg-clip-text"
-                variants={itemVariants}
-              >
-                {name}
-              </motion.h1>
-              <motion.h2 
-                className="text-xl text-gray-300 mb-4 font-mono tracking-wide"
-                variants={itemVariants}
-              >
-                {title}
-              </motion.h2>
-              <motion.p 
-                className="text-gray-400 max-w-2xl mb-6 leading-relaxed"
-                variants={itemVariants}
-              >
-                {bio}
-              </motion.p>
-
-              {/* <motion.div 
-                className="flex flex-wrap justify-center md:justify-start gap-3"
-                variants={itemVariants}
-              >
-                {techStack.map((tech, index) => (
-                  <div 
-                    key={index} 
-                    className="bg-gray-800/50 backdrop-blur-sm px-4 py-2 rounded-full flex items-center text-sm border border-gray-700/50 hover:bg-gray-700/50 transition-colors duration-300"
-                  >
-                    <span className="mr-2 text-cyan-400">{tech.icon}</span>
-                    <span className="text-gray-200">{tech.name}</span>
-                  </div>
-                ))}
-              </motion.div> */}
-            </div>
-          </div>
-        </motion.section>
+    <div className="text-center md:text-left">
+      <motion.h1 
+        className="text-3xl md:text-5xl font-extrabold mb-2 md:mb-3 bg-gradient-to-r from-cyan-400 to-purple-400 text-transparent bg-clip-text"
+        variants={itemVariants}
+      >
+        {name}
+      </motion.h1>
+      <motion.h2 
+        className="text-lg md:text-xl text-gray-300 mb-3 md:mb-4 font-mono tracking-wide"
+        variants={itemVariants}
+      >
+        {title}
+      </motion.h2>
+      <motion.p 
+        className="text-sm md:text-base text-gray-400 max-w-xl md:max-w-2xl mb-4 md:mb-6 leading-relaxed"
+        variants={itemVariants}
+      >
+        {bio}
+      </motion.p>
+    </div>
+  </div>
+</motion.section>
 
         {/* Projects Section */}
         <motion.section 
@@ -177,40 +175,40 @@ export default function Home() {
           whileInView="visible"
           viewport={{ once: true }}
         >
-          <motion.h3 
-            className="text-3xl font-bold mb-10 flex items-center"
-            variants={itemVariants}
-          >
-            <FaCodeBranch className="mr-3 text-purple-400" /> 
-            Featured Projects
-          </motion.h3>
+<motion.h3 
+  className="text-xl md:text-3xl font-bold mb-6 md:mb-10 flex items-center"
+  variants={itemVariants}
+>
+  <FaCodeBranch className="mr-2 md:mr-3 text-purple-400 text-lg md:text-2xl" /> 
+  Featured Projects
+</motion.h3>
 
-          <div className="grid md:grid-cols-2 gap-6">
-  {featuredProjects.slice(0, 3).map((project, index) => (
+          <div className="grid grid-cols-2 gap-3 px-3 md:grid-cols-2 md:gap-4 md:px-4 lg:gap-6 lg:px-6">
+  {featuredProjects.slice(0, 4).map((project, index) => (
     <motion.a
       key={index}
       href={project.url}
       target="_blank"
       rel="noopener noreferrer"
-      className="group relative bg-gray-800/50 backdrop-blur-sm rounded-xl overflow-hidden border border-gray-700/50 hover:border-purple-500/50 transition-all duration-300"
+      className="group relative bg-gray-800/50 backdrop-blur-sm rounded-lg overflow-hidden border border-gray-700/50 hover:border-purple-500/50 transition-all duration-300"
       variants={itemVariants}
-      whileHover={{ scale: 1.02 }}
-      whileTap={{ scale: 0.98 }}
+      whileHover={{ scale: 1.01 }}
+      whileTap={{ scale: 0.99 }}
     >
       <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-cyan-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-      <div className="relative p-6">
-        <div className="w-12 h-12 rounded-lg bg-gray-900/50 flex items-center justify-center mb-4 group-hover:bg-gray-850/50 transition-colors duration-300">
+      <div className="relative p-3 md:p-4 lg:p-5">
+        <div className="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 rounded-full bg-gray-900/50 flex items-center justify-center mb-2 md:mb-3 lg:mb-4 group-hover:bg-gray-850/50 transition-colors duration-300">
           {project.icon}
         </div>
-        <h4 className="text-xl font-bold mb-2 text-white group-hover:text-purple-300 transition-colors duration-300">
+        <h4 className="text-base md:text-lg lg:text-xl font-bold mb-1 md:mb-2 text-white group-hover:text-purple-300 transition-colors duration-300">
           {project.title}
         </h4>
-        <p className="text-gray-400 mb-4 text-sm">{project.description}</p>
-        <div className="flex flex-wrap gap-2">
-          {project.tags.map((tag, tagIndex) => (
+        <p className="text-gray-400 mb-2 md:mb-3 text-[10px] md:text-xs lg:text-sm line-clamp-2">{project.description}</p>
+        <div className="flex flex-wrap gap-1 md:gap-1.5 lg:gap-2">
+          {project.tags.slice(0, 3).map((tag, tagIndex) => (
             <span 
               key={tagIndex} 
-              className="text-xs px-2 py-1 bg-gray-700/50 rounded-md text-gray-300 group-hover:bg-purple-900/30 transition-colors duration-300"
+              className="text-[9px] md:text-[10px] lg:text-xs px-1 md:px-1.5 lg:px-2 py-0.5 bg-gray-700/50 rounded-sm text-gray-300 group-hover:bg-purple-900/30 transition-colors duration-300"
             >
               {tag}
             </span>
@@ -231,38 +229,39 @@ export default function Home() {
           whileInView="visible"
           viewport={{ once: true }}
         >
-          <motion.h3 
-            className="text-3xl font-bold mb-10 flex items-center"
-            variants={itemVariants}
-          >
-            <FaTerminal className="mr-3 text-cyan-400" /> 
-            Connect & Follow
-          </motion.h3>
+<motion.h3 
+  className="text-xl md:text-3xl font-bold mb-6 md:mb-10 flex items-center"
+  variants={itemVariants}
+>
+  <FaTerminal className="mr-2 md:mr-3 text-cyan-400 text-lg md:text-2xl" /> 
+  Connect & Follow
+</motion.h3>
 
-          <div className="grid md:grid-cols-2 gap-5">
-            {links.map((link, index) => (
-              <motion.a
-                key={index}
-                href={link.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="relative flex items-center p-5 rounded-xl bg-gray-800/50 backdrop-blur-sm border border-gray-700/50 hover:border-cyan-500/50 transition-all duration-300 overflow-hidden"
-                variants={itemVariants}
-                whileHover={{ scale: 1.02 }}
-              >
-                <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/10 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
-                <div className="relative flex-shrink-0 w-12 h-12 rounded-lg bg-gray-900/50 flex items-center justify-center mr-4 text-xl text-cyan-400">
-                  {link.icon}
-                </div>
-                <div className="relative">
-                  <h2 className="text-lg font-semibold text-white group-hover:text-cyan-300 transition-colors duration-300">
-                    {link.title}
-                  </h2>
-                  <p className="text-sm text-gray-400">{link.description}</p>
-                </div>
-              </motion.a>
-            ))}
-          </div>
+          <div className="grid grid-cols-2 gap-3 px-3 md:grid-cols-2 md:gap-4 md:px-4 lg:gap-5 lg:px-6">
+  {links.slice(0, 4).map((link, index) => (
+    <motion.a
+      key={index}
+      href={link.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="relative flex items-center p-3 md:p-4 lg:p-5 rounded-lg bg-gray-800/50 backdrop-blur-sm border border-gray-700/50 hover:border-cyan-500/50 transition-all duration-300 overflow-hidden"
+      variants={itemVariants}
+      whileHover={{ scale: 1.01 }}
+      whileTap={{ scale: 0.99 }}
+    >
+      <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/10 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
+      <div className="relative flex-shrink-0 w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 rounded-full bg-gray-900/50 flex items-center justify-center mr-2 md:mr-3 lg:mr-4 text-base md:text-lg lg:text-xl text-cyan-400">
+        {link.icon}
+      </div>
+      <div className="relative">
+        <h2 className="text-base md:text-lg lg:text-lg font-semibold text-white group-hover:text-cyan-300 transition-colors duration-300">
+          {link.title}
+        </h2>
+        <p className="text-[10px] md:text-xs lg:text-sm text-gray-400 line-clamp-2">{link.description}</p>
+      </div>
+    </motion.a>
+  ))}
+</div>
         </motion.section>
 
         {/* Enhanced Footer */}
