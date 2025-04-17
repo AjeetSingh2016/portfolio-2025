@@ -60,7 +60,7 @@ export default function Home() {
     {
       title: 'Transfine Digital',
       url: 'https://www.transfinedigital.com/',
-      description: 'A smarter way to save and sync your important links & tasks across all devices.',
+      description: 'Transfine Digital is a curated collection of simple, useful mobile apps designed to solve everyday problems.',
       icon: (
         <img 
           src="https://www.transfinedigital.com/favicon.ico" 
