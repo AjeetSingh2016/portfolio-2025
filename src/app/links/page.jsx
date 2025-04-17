@@ -58,17 +58,17 @@ export default function Home() {
       tags: ['React Native', 'Next.js', 'Productivity']
     },
     {
-      title: 'Transfine Digital',
-      url: 'https://www.transfinedigital.com/',
-      description: 'Transfine Digital is a curated collection of simple, useful mobile apps designed to solve everyday problems.',
+      title: 'Freelance Flow',
+      url: 'https://freelance-flow-nine.vercel.app/',
+      description: 'FreelanceFlow is an all-in-one toolset designed for freelancers.',
       icon: (
         <img 
-          src="https://www.transfinedigital.com/favicon.ico" 
-          alt="Transfine Digital Icon" 
+          src="https://freelance-flow-nine.vercel.app/favicon.ico" 
+          alt="Freelance Flow Icon" 
           className="w-12 h-12 object-contain"
         />
       ),
-      tags: ['React Native', 'Next.js', 'Productivity', 'Tools', 'Utility']
+      tags: ['Next.js', 'Productivity', 'Tools', 'Utility']
     }
   ];
   const links = [
