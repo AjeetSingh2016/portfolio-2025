@@ -8,7 +8,7 @@ export default function Home() {
   const [name] = useState('Ajeet Singh');
   const [title] = useState('Software Developer');
   const [bio] = useState('Frontend & Mobile Dev specializing in React Native & Next.js');
-  const [avatarUrl] = useState('https://pbs.twimg.com/profile_images/1890884733309005824/5GIC4kHZ_400x400.jpg');
+  const [avatarUrl] = useState('https://pbs.twimg.com/profile_images/1920177749748051968/bxZ_2Rhe_400x400.jpg');
   const [scrollPosition, setScrollPosition] = useState(0);
 
   useEffect(() => {
