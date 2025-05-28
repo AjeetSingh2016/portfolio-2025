@@ -32,17 +32,17 @@ export default function Home() {
       tags: ['Next.js', 'WebGL', 'Color Theory']
     },
     {
-      title: 'Templify.art',
-      url: 'https://templify.art',
-      description: 'TemplateHub provides cutting-edge React Native & Next.js templates.',
+      title: 'Claybees',
+      url: 'https://claybees.art/',
+      description: 'FreelanceFlow is an all-in-one toolset designed for freelancers.',
       icon: (
         <img 
-          src="https://www.templify.art/favicon.ico" 
-          alt="Templify Icon" 
+          src="https://claybees.art/favicon.ico" 
+          alt="claybees Icon" 
           className="w-12 h-12 object-contain"
         />
       ),
-      tags: ['React Native', 'Next.js', 'Templates']
+      tags: ['Icons', 'Illustrations', 'UI/UX', 'Designs']
     },
     {
       title: 'QuickSync',
@@ -58,17 +58,17 @@ export default function Home() {
       tags: ['React Native', 'Next.js', 'Productivity']
     },
     {
-      title: 'CLaybees',
-      url: 'https://claybees.art/',
-      description: 'FreelanceFlow is an all-in-one toolset designed for freelancers.',
+      title: 'Templify.art',
+      url: 'https://templify.art',
+      description: 'TemplateHub provides cutting-edge React Native & Next.js templates.',
       icon: (
         <img 
-          src="https://claybees.art/favicon.ico" 
-          alt="claybees Icon" 
+          src="https://www.templify.art/favicon.ico" 
+          alt="Templify Icon" 
           className="w-12 h-12 object-contain"
         />
       ),
-      tags: ['Icons', 'Illustrations', 'UI/UX', 'Designs']
+      tags: ['React Native', 'Next.js', 'Templates']
     }
   ];
   const links = [
