@@ -58,17 +58,17 @@ export default function Home() {
       tags: ['React Native', 'Next.js', 'Productivity']
     },
     {
-      title: 'Freelance Flow',
-      url: 'https://freelance-flow-nine.vercel.app/',
+      title: 'CLaybees',
+      url: 'https://claybees.art/',
       description: 'FreelanceFlow is an all-in-one toolset designed for freelancers.',
       icon: (
         <img 
-          src="https://freelance-flow-nine.vercel.app/favicon.ico" 
-          alt="Freelance Flow Icon" 
+          src="https://claybees.art/favicon.ico" 
+          alt="claybees Icon" 
           className="w-12 h-12 object-contain"
         />
       ),
-      tags: ['Next.js', 'Productivity', 'Tools', 'Utility']
+      tags: ['Icons', 'Illustrations', 'UI/UX', 'Designs']
     }
   ];
   const links = [
