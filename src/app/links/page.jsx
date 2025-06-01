@@ -34,7 +34,7 @@ export default function Home() {
     {
       title: 'Claybees',
       url: 'https://claybees.art/',
-      description: 'FreelanceFlow is an all-in-one toolset designed for freelancers.',
+      description: 'Handcrafted 3D assets for designers & developers. Download PNG or JPG instantly.',
       icon: (
         <img 
           src="https://claybees.art/favicon.ico" 
