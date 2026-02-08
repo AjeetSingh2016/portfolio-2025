@@ -96,7 +96,7 @@ export default function Home() {
     },
     {
       title: "Portfolio",
-      url: "https://ajeetsingh.online/",
+      url: "https://www.ajeetsingh.dev/portfolio",
       icon: <FaTerminal />,
       description: "Explore my journey and work",
     },

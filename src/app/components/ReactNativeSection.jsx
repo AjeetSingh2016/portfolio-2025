@@ -76,7 +76,7 @@ const reactNativeApps = [
     title: "Automatic Expense Manager",
     description:
       "Track and manage daily expenses efficiently with a clean Android-first UX.",
-    url: "https://flawwless-showcase.vercel.app/home",
+    url: "https://portfolio-2025-singh.s3.us-east-1.amazonaws.com/Apk/Expense+Manager.rar",
     tags: ["Finance", "Android"],
     iconUrl: "https://img.icons8.com/fluency/96/receipt.png",
   },

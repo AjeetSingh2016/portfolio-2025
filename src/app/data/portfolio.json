@@ -34,7 +34,7 @@
           "Lucide React",
           "Firestore"
         ],
-        "image": "https://quicksync.online/og-image.png",
+        "image": "https://portfolio-2025-singh.s3.us-east-1.amazonaws.com/Project+Thumbnail+/quick-sync.jpg",
         "video": ""
       },
       {
@@ -144,7 +144,7 @@
         "stack": "React Native", 
         "description": "Founded the app which helps users to get a better understanding of the law and consume unbiased information. Some of the features of the app are reading articles, an Inbuilt dictionary, Rich resources, and Easy to use.", 
         "source": "https://github.com/AjeetSingh2016/flawwless-App",
-        "link": "https://flawwless-showcase-second.vercel.app/home",
+        "link": "https://portfolio-2025-singh.s3.us-east-1.amazonaws.com/Apk/Expense+Manager.rar",
         "technologies": [
           "React Js",
           "JavaScript",
@@ -187,7 +187,7 @@
           "React Native",
           "Material UI"
         ],
-        "image": "https://ncert-epub.s3.us-east-1.amazonaws.com/test/system.jpg",
+        "image": "https://portfolio-2025-singh.s3.us-east-1.amazonaws.com/Project+Thumbnail+/device-info.jpg",
         "video": "https://cdn.llm.report/openai-demo.mp4"
       },
       { 
@@ -253,7 +253,7 @@
           "Redux",
           "Tailwind CSS"
         ],
-        "image": "https://ncert-epub.s3.us-east-1.amazonaws.com/test/taskify.png",
+        "image": "https://portfolio-2025-singh.s3.us-east-1.amazonaws.com/Project+Thumbnail+/taskify.jpg",
         "video": ""
       },
       {
@@ -270,7 +270,7 @@
           "Firebase",
           "Tailwind CSS"
         ],
-        "image": "https://play-lh.googleusercontent.com/Z75ShynWoKEBSBfSpSjUodBUFEl8V5Z7UDIBDoQI00YStDut900tI7D92lTODT9WW230=w240-h480-rw",
+        "image": "https://portfolio-2025-singh.s3.us-east-1.amazonaws.com/Project+Thumbnail+/orbital.jpg",
         "video": ""
       }
     
