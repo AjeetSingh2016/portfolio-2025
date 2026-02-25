@@ -56,7 +56,7 @@ export default function Home() {
           className="w-12 h-12 object-contain"
         />
       ),
-      tags: ["Icons", "Illustrations", "UI/UX", "Designs"],
+      tags: ["Next.js", "AWS Cloudfront", "AWS S3"],
     },
     {
       title: "QuickSync",
@@ -70,7 +70,7 @@ export default function Home() {
           className="w-12 h-12 object-contain"
         />
       ),
-      tags: ["React Native", "Next.js", "Productivity"],
+      tags: ["React Native", "Next.js", "Firebase"],
     },
     {
       title: "Templify.art",
@@ -81,11 +81,26 @@ export default function Home() {
         <img
           src="https://www.templify.art/favicon.ico"
           alt="Templify Icon"
-          className="w-12 h-12 object-contain"
+          className="w-12 h-12 object-contain rounded-md"
         />
       ),
+      
       tags: ["React Native", "Next.js", "Templates"],
     },
+    {
+      title: "MediVault",
+      url: "https://play.google.com/store/apps/details?id=com.ajeet.medicalrecord.app2026&pcampaignid=web_share",
+      description:
+        "Mobile application to securely store and manage personal and family medical records on the go. Empowering users to access critical health information anytime, anywhere.",
+      icon: (
+        <img
+          src="https://medical-record-web-umber.vercel.app/favicon.ico"
+          alt="Templify Icon"
+          className="w-12 h-12 object-contain rounded-md"
+        />
+      ),
+      tags: ["React Native", "Supabase", "Productivity"],
+    }
   ];
   const links = [
     {
@@ -254,14 +269,54 @@ export default function Home() {
                 </div>
               </motion.a>
             ))}
+
+            {/* 5th project — spans full width so it doesn't sit alone in a half-row */}
+            {featuredProjects[4] && (
+              <motion.a
+                href={featuredProjects[4].url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="col-span-2 group relative bg-gray-800/50 backdrop-blur-sm rounded-lg overflow-hidden border border-gray-700/50 hover:border-purple-500/50 transition-all duration-300"
+                variants={itemVariants}
+                whileHover={{ scale: 1.01 }}
+                whileTap={{ scale: 0.99 }}
+              >
+                <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-cyan-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="relative p-3 md:p-4 lg:p-5 flex items-start gap-4">
+                  <div className="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 flex-shrink-0 rounded-full bg-gray-900/50 flex items-center justify-center group-hover:bg-gray-850/50 transition-colors duration-300">
+                    {featuredProjects[4].icon}
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <h4 className="text-base md:text-lg lg:text-xl font-bold mb-1 md:mb-2 text-white group-hover:text-purple-300 transition-colors duration-300">
+                      {featuredProjects[4].title}
+                    </h4>
+                    <p className="text-gray-400 mb-2 md:mb-3 text-[10px] md:text-xs lg:text-sm line-clamp-2">
+                      {featuredProjects[4].description}
+                    </p>
+                    <div className="flex flex-wrap gap-1 md:gap-1.5 lg:gap-2">
+                      {featuredProjects[4].tags
+                        .slice(0, 3)
+                        .map((tag, tagIndex) => (
+                          <span
+                            key={tagIndex}
+                            className="text-[9px] md:text-[10px] lg:text-xs px-1 md:px-1.5 lg:px-2 py-0.5 bg-gray-700/50 rounded-sm text-gray-300 group-hover:bg-purple-900/30 transition-colors duration-300"
+                          >
+                            {tag}
+                          </span>
+                        ))}
+                    </div>
+                  </div>
+                </div>
+              </motion.a>
+            )}
           </div>
         </motion.section>
-         
-         {/* React Native Section */}
+
+        {/* React Native Section */}
         <ReactNativeSection
-  containerVariants={containerVariants}
-  itemVariants={itemVariants}
-/>
+          containerVariants={containerVariants}
+          itemVariants={itemVariants}
+        />
 
         {/* Links Section */}
         <motion.section
