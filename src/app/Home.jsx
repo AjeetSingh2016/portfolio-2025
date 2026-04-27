@@ -32,12 +32,12 @@ export default function Home() {
 
   const featuredProjects = [
     {
-      title: "ColorCraft.dev",
-      url: "https://colorcraft.dev",
+      title: "colorCraft",
+      url: "https://colorcraft.site",
       description: "The Ultimate Color Toolkit for developers and designers",
       icon: (
         <img
-          src="https://www.colorcraft.dev/favicon.ico"
+          src="https://www.colorcraft.site/favicon.ico"
           alt="ColorCraft Icon"
           className="w-12 h-12 object-contain"
         />
@@ -60,12 +60,12 @@ export default function Home() {
     },
     {
       title: "QuickSync",
-      url: "https://www.quicksync.online",
+      url: "https://www.quicksync.live",
       description:
         "A smarter way to save and sync your important links & tasks across all devices.",
       icon: (
         <img
-          src="https://www.quicksync.online/favicon.ico"
+          src="https://www.quicksync.live/favicon.ico"
           alt="Templify Icon"
           className="w-12 h-12 object-contain"
         />
@@ -74,12 +74,12 @@ export default function Home() {
     },
     {
       title: "Templify.art",
-      url: "https://templify.art",
+      url: "https://templify.best",
       description:
         "TemplateHub provides cutting-edge React Native & Next.js templates.",
       icon: (
         <img
-          src="https://www.templify.art/favicon.ico"
+          src="https://www.templify.best/favicon.ico"
           alt="Templify Icon"
           className="w-12 h-12 object-contain rounded-md"
         />
